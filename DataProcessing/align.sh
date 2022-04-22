@@ -2,6 +2,7 @@
 ### 'sbatch align.sh bamlist.txt refgenome.fa' 
 ### with file paths leading to each item.
 ### In this case I used the canFam3.fa ref genome
+### See ~/GrayFox/SNAPP/trimmed/canid_bamlist for bamlist
 
 #!/bin/bash
 #SBATCH -t 10:00:00x
