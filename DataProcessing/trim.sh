@@ -11,3 +11,6 @@ done
 #single end reads (-se)
 #trim off any remaining 5’ adapter sequences that are illumina multiplex specific (-5a_f i-m)
 #and trims reads with >50% of bases having a quality score of <2 (-methods lqr -lqs 2 -lq_p 50)
+
+
+##The end result is individual trimmed fastq files that are used in the alignment step
