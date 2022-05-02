@@ -45,13 +45,3 @@ populations -P ~/GrayFox/Stacks_Outputs/GrayFoxAll_284/ -O ~/GrayFox/Stacks_Outp
 #Kept 1817068 loci, composed of 152732001 sites; 313102 of those sites were filtered, 219149 variant sites remained.
 #    110180670 genomic sites, of which 32464511 were covered by multiple loci (29.5%).
 #Mean genotyped sites per locus: 83.79bp (stderr 0.01).
-
-#Population summary statistics (more detail in populations.sumstats_summary.tsv):
-#  West: 22.735 samples per locus; pi: 0.17617; all/variant/polymorphic sites: 61415320/197390/113905; private alleles: 25129
-#  Texas: 43.193 samples per locus; pi: 0.21371; all/variant/polymorphic sites: 87901929/202783/141209; private alleles: 37108
-#  East: 27.307 samples per locus; pi: 0.11755; all/variant/polymorphic sites: 82448423/188459/69335; private alleles: 18167
-
-#Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
-#  West-Texas: mean Fst: 0.1745; mean Phi_st: 0.17082; mean Fst': 0.16415
-#  West-East: mean Fst: 0.27925; mean Phi_st: 0.35112; mean Fst': 0.33029
-#  Texas-East: mean Fst: 0.21984; mean Phi_st: 0.25894; mean Fst': 0.24473
