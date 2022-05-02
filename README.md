@@ -16,12 +16,13 @@ Identifying the presence and location of secondary contact between cryptic gray 
 * Trim reads [trim.sh]
 * Align to reference [align.sh]
 
-## **Alternate Data Processing Pipeline**
-* Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh[] (This is presented as an option for an alt. pipeline that I did not pursue in the manuscript)
+*Alternate Data Processing Pipeline*
+* Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh[] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*)
 
 ## Initial SNP Calling
 * Stacks reference map pipline [refmap_PL_grayfox.sh]
-* Stacks de novo pipeline [denovo_PL_grayfox.sh] (This is presented as an option for an alt. pipeline that I did not pursue in the manuscript) See stacks manual for best practices on how to implement a denovo pipeline using the R80 method, which maximizes the number of polymorphic loci found in 80% of the individuals in your study.
+
+* Stacks de novo pipeline [denovo_PL_grayfox.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*) See stacks manual for best practices on how to implement a denovo pipeline using the R80 method, which maximizes the number of polymorphic loci found in 80% of the individuals in your study.
  *  [Lost in parameter space: a road map forSTACKS](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12775) - Some helpful info from the older version of Stacks
  *  [RADstackshelpR](https://devonderaad.github.io/RADstackshelpR/index.html) is an R package that helps to determine the optimal parameters for assembling RAD loci de novo
  *  This pre-print is also a useful resource. [Population genomics analysis with RAD, reprised: STACKS 2](https://www.biorxiv.org/content/biorxiv/early/2021/11/04/2021.11.02.466953.full.pdf) 
