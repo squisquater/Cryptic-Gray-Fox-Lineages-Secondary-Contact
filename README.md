@@ -13,13 +13,14 @@ Identifying the presence and location of secondary contact between cryptic gray 
   * InfoFile: /mnt/iguana/MECU/Data_Shared_Iguana/20190918GrayFoxGBS2-3/Data/Project_BSSP_L3_GF3/GFRun3_Info_File.txt  
 
 ## **Data Processing**
+* Demultiplexed [demux.sh] 
 * Trim reads [trim.sh]
-* Align to reference [align.sh]
 
 *Alternate Data Processing Pipeline*
 * Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh[] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*)
 
-## Initial SNP Calling
+## Alignment & Initial SNP Calling
+* Align to reference [align.sh]
 * Stacks reference map pipline [refmap_PL_grayfox.sh]
 
 * Stacks de novo pipeline [denovo_PL_grayfox.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*) See stacks manual for best practices on how to implement a denovo pipeline using the R80 method, which maximizes the number of polymorphic loci found in 80% of the individuals in your study.
