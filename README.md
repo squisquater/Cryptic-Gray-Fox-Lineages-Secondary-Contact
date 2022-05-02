@@ -30,5 +30,3 @@ Identifying the presence and location of secondary contact between cryptic gray 
 ## SNP filtering and Population Summary Stats
 link to Stacks [populations filters]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php)
 * Using data generated from the reference genome pipeline, apply basic SNP filters and generate population summary stats [refPL_poprun_GrayFox1_minmac2_maxhet0.6.sh]
-* Using data generated from the denovo alignment pipeline, apply basic SNP filters and generate population summary stats [denovoPL_poprun_GrayFox1_minmac2_maxhet0.6.sh]
-GF1_S149_L006_R1_001.fastq.gz
