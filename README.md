@@ -29,6 +29,6 @@ Identifying the presence and location of secondary contact between cryptic gray 
  *  [RADstackshelpR](https://devonderaad.github.io/RADstackshelpR/index.html) is an R package that helps to determine the optimal parameters for assembling RAD loci de novo
  *  This pre-print is also a useful resource. [Population genomics analysis with RAD, reprised: STACKS 2](https://www.biorxiv.org/content/biorxiv/early/2021/11/04/2021.11.02.466953.full.pdf) 
 
-## SNP filtering
+## Initial SNP filtering
 link to Stacks [populations filters]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php)
-* Using data generated from the reference genome pipeline, apply basic SNP filters and generate population summary stats [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
+* Using data generated from the reference genome pipeline, I tested out a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. See methods outlines in the manuscript. The script shown here represents the filtering parameters that I used to generate my final Gray Fox SNP whitelist for downstream analyses. [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
