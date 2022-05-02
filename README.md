@@ -21,7 +21,8 @@ Identifying the presence and location of secondary contact between cryptic gray 
 
 ## Alignment & Initial SNP Calling
 * Align to reference [align.sh]
-* Stacks reference map pipline [refmap_PL_grayfox.sh]
+* Stacks reference map SNP pipline [refmap_PL_grayfox.sh]
+* Run populations on output of above refmap pipeline [poprun_GrayFoxAll_284_maf0.02_moh0.6.sh]
 
 * Stacks de novo pipeline [denovo_PL_grayfox.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*) See stacks manual for best practices on how to implement a denovo pipeline using the R80 method, which maximizes the number of polymorphic loci found in 80% of the individuals in your study.
  *  [Lost in parameter space: a road map forSTACKS](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12775) - Some helpful info from the older version of Stacks
