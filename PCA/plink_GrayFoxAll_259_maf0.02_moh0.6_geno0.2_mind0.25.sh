@@ -12,3 +12,6 @@ plink --file /home/sophiepq/GrayFox/Stacks_Outputs/GrayFoxAll_284/poprun_GrayFox
 #PC1: 63.5364
 #PC2: 8.3803
 #PC3: 3.57343
+
+
+## note some of the ways plink handles filespaths appears to have changed and you may need to more specifically route to the populations.plink files as opposed to just the folder.
