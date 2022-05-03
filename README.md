@@ -13,16 +13,16 @@ Identifying the presence and location of secondary contact between cryptic gray 
   * InfoFile: /mnt/iguana/MECU/Data_Shared_Iguana/20190918GrayFoxGBS2-3/Data/Project_BSSP_L3_GF3/GFRun3_Info_File.txt  
 
 ## **Data Processing**
-* Demultiplexed [demux.sh] 
-* Trim reads [trim.sh]
+* Demultiplexed [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/demux.sh) 
+* Trim reads [trim.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/trim.sh)
 
 *Alternate Data Processing Pipeline*
-* Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh[] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*)
+* Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*)
 
 ## Alignment & Initial SNP Calling
-* Align to reference [align.sh]
-* Stacks reference map SNP pipline [refmap_PL_grayfox.sh]
-* Run populations on output of above refmap pipeline [poprun_GrayFoxAll_284_maf0.02_moh0.6.sh]
+* Align to reference [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh)
+* Stacks reference map SNP pipline [refmap_PL_grayfox.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/refmap_PL_grayfox.sh)
+* Run populations on output of above refmap pipeline [poprun_GrayFoxAll_284_maf0.02_moh0.6.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/poprun_GrayFoxAll_284_maf0.02_moh0.6.sh)
 
 * Stacks de novo pipeline [denovo_PL_grayfox.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*) See stacks manual for best practices on how to implement a denovo pipeline using the R80 method, which maximizes the number of polymorphic loci found in 80% of the individuals in your study.
  *  [Lost in parameter space: a road map forSTACKS](https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/2041-210X.12775) - Some helpful info from the older version of Stacks
@@ -31,4 +31,4 @@ Identifying the presence and location of secondary contact between cryptic gray 
 
 ## Initial SNP filtering
 link to Stacks [populations filters]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php)
-* Using data generated from the reference genome pipeline, I tested out a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. See methods outlines in the manuscript. The script shown here represents the filtering parameters that I used to generate my final Gray Fox SNP whitelist for downstream analyses. [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
+* Using data generated from the reference genome pipeline, I tested out a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. See methods outlines in the manuscript. The script shown here represents the filtering parameters that I used to generate my final Gray Fox SNP whitelist for downstream analyses. [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/SNP-filtering/plink_maf0.02moh0.6_mind0.9_geno0.2_mind0.32.sh)
