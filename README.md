@@ -34,5 +34,6 @@ You can check out details on the Stacks populations filters [here]( http://catch
 * Using data generated from the reference genome pipeline, I tested out a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. See methods outlines in the manuscript. The script shown here represents the filtering parameters that I opted to move forward with. I generate a final Gray Fox SNP whitelist from the .map file and used this for downstream analyses. [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/SNP-filtering/plink_maf0.02moh0.6_mind0.9_geno0.2_mind0.32.sh)
 
 ## Final SNP Dataset and Population Summary Stats
-Rerun poopulations using SNP list generated above and only higher quality individuals (n=259) [Populations_GrayFox_259.sh]
+* Rerun populations using SNP list generated above and only higher quality individuals (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/PopStats/Populations_GrayFox_259.sh)
+* Rerun populations using SNP list generated above but selecting a single SNP per locus to reduce possible linkage between sites [Populations_GrayFox_259_unlinked.sh]
 
