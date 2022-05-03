@@ -2,7 +2,7 @@
 #SBATCH -t 10:00
 #SBATCH -p high
 #SBATCH --mem=200M
-#SBATCH -o "plink_recode.out"
+#SBATCH -o "plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_recodebinary.out"
 
 module load plink
 
