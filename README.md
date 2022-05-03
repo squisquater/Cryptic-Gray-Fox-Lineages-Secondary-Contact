@@ -47,11 +47,11 @@ You can check out details on the Stacks populations filters [here]( http://catch
 #### fullSNPset
 * Recode binary plink files [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_recodebinary.sh] 
 * Run fastStructure for K=2:7 [fastStructure_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
-* Choose model complexity [ ]
+* Choose model complexity [chooseK.sh]
 #### prunedSNPset
 * Recode binary plink files [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned_recodebinary.sh] 
 * Run fastStructure for K=2:7 [fastStructure_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned.sh]
-* Choose model complexity [ ]
+* Choose model complexity [chooseK_pruned.sh]
 
 ### fineRADstructure
 *The power in this analysis comes from haplotype data so we'll move forward from here with just the unpruned dataset (~45k SNPs)*
