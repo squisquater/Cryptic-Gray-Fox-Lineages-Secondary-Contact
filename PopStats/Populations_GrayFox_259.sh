@@ -24,4 +24,4 @@ populations -P ~/GrayFox/Stacks_Outputs/GrayFoxAll_284/ -O ~/GrayFox/Stacks_Outp
 #  West: 155.26 samples per locus; pi: 0.19924; all/variant/polymorphic sites: 2690468/44931/43608; private alleles: 17550
 
 #Population pair divergence statistics (more in populations.fst_summary.tsv and populations.phistats_summary.tsv):
-  East-West: mean Fst: 0.12347; mean Phi_st: 0.21228; mean Fst': 0.16672
+#  East-West: mean Fst: 0.12347; mean Phi_st: 0.21228; mean Fst': 0.16672
