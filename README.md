@@ -63,7 +63,7 @@ Simulating varying hybrid classes based on 69 fixed loci and summarzing resultin
 
 ## Phylogenetic Analyses
 ### Alignment & Initial SNP Calling
- * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh)script, I just using a different bamlist
+ * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, I just using a different bamlist
  * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh]
  * Run populations on output of above refmap pipeline [Populations_Canidae_90_minmac2moh0.6p15.sh]
 ### SNP filtering
