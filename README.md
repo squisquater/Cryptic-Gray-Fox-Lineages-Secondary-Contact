@@ -71,4 +71,7 @@ Simulating varying hybrid classes based on 69 fixed loci and summarzing resultin
  * Convert to fasta
  * Creat phydat object
 
+### Treemix
+
+
 
