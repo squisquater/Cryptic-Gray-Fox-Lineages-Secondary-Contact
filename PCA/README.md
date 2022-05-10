@@ -1,1 +1,1 @@
-[<img align="center" src="/PCA/PCA-thin-nothin.png" width="300">]
+<img align="center" src="/PCA/PCA-thin-nothin.png" width="500">
