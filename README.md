@@ -39,7 +39,7 @@ You can check out details on the Stacks populations filters [here]( http://catch
 * Rerun populations using SNP list generated above but selecting a single SNP per locus to reduce possible linkage between sites [Populations_GrayFox_259_unlinked.sh]
 
 ## Population Structure
-### PCA and MDS Plot
+### PCA
 * for the full snp datatset [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
 * for the pruned snp dataset [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned.sh]
 
