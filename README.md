@@ -16,9 +16,6 @@ Identifying the presence and location of secondary contact between cryptic gray 
 * Demultiplexed [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/trim.sh)
 
-*Alternate Data Processing Pipeline*
-* Demultiplex + Clean and Generate Basic Library Stats [process_radtags.sh] (*This is presented as an option for an alt. pipeline that I did not pursue in the manuscript*)
-
 ## Alignment & Initial SNP Calling
 * Align to reference [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh)
 * Stacks reference map SNP pipeline [refmap_PL_grayfox.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/refmap_PL_grayfox.sh)
