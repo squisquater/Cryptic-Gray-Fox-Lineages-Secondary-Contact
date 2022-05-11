@@ -1,13 +1,13 @@
 # Cryptic-Gray-Fox-Lineages-Secondary-Contact
 Identifying the presence and location of secondary contact between cryptic gray fox lineages using a reduced representation GBS dataset
 
-## **[0.0] Sample Info**
+## [0] Sample Info
 * [SampleList.md]
 
-## [1.0] Raw data location 
+## [1] Raw data location 
 *
 
-## **Data Processing**
+## [2] Data Processing
 * Demultiplexed [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/trim.sh)
 
