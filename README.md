@@ -24,7 +24,7 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 
 
 ## 4. Final SNP Dataset and Population Summary Stats
-* Rerun populations using SNP list generated above and only higher quality individuals (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/PopStats/Populations_GrayFox_259.sh)
+* Rerun populations using SNP list generated above and only individuals that passed quality filtering (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/PopStats/Populations_GrayFox_259.sh)
 * Rerun populations using SNP list generated above but selecting a single SNP per locus to reduce possible linkage between sites [Populations_GrayFox_259_unlinked.sh]
 
 ## 5. Population Structure
