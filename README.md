@@ -25,32 +25,21 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 
 ## 4. Final SNP Dataset and Population Summary Stats
 * Rerun populations using SNP list generated above and only individuals that passed quality filtering (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/PopStats/Populations_GrayFox_259.sh)
-* Rerun populations using SNP list generated above but selecting a single SNP per locus to reduce possible linkage between sites [Populations_GrayFox_259_unlinked.sh]
 
 ## 5. Population Structure
 ### PCA
 * for the full snp datatset [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
-* for the pruned snp dataset [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned.sh]
 
 ### fastStructure
-#### fullSNPset
 * Recode binary plink files [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_recodebinary.sh] 
 * Run fastStructure for K=2:7 [fastStructure_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
 * Choose model complexity [chooseK.sh]
-#### thinnedSNPset
-* Recode binary plink files [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned_recodebinary.sh] 
-* Run fastStructure for K=2:7 [fastStructure_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_pruned.sh]
-* Choose model complexity [chooseK_pruned.sh]
 
 ### fineRADstructure
-*The power in this analysis comes from haplotype data so we'll move forward from here with just the unpruned dataset (~45k SNPs)*
 
-## 6. Hybrid Simulations
-Simulating varying hybrid classes based on 69 fixed loci and summarzing resulting ancestry proportions and heterozygosities.
-* Simulation Script [HybridSimScript_GF.R]
-* Triangle Plotting Scripts [TrianglePLots.R]
 
-## 7. Phylogenetic Analyses
+
+## 6. Phylogenetic Analyses
 ### Alignment & Initial SNP Calling
  * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, I just using a different bamlist
  * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh]
@@ -60,7 +49,6 @@ Simulating varying hybrid classes based on 69 fixed loci and summarzing resultin
  * Convert to fasta
  * Creat phydat object
 
-### Treemix
 
 
 
