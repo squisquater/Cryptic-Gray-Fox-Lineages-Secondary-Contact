@@ -41,10 +41,12 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 
 ## 6. Phylogenetic Analyses
 ### Alignment & Initial SNP Calling
- * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, I just using a different bamlist
+ * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, just using a different bamlist.
  * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh]
  * Run populations on output of above refmap pipeline [Populations_Canidae_90_minmac2moh0.6p15.sh]
+
 ### SNP filtering
+
 ###
  * Convert to fasta
  * Creat phydat object
