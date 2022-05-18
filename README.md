@@ -2,7 +2,7 @@
 Identifying the presence and location of secondary contact between cryptic gray fox lineages using a reduced representation GBS dataset
 
 ### Sample Info
-* [GrayFoxSampleList.md]
+* [GrayFoxSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/GrayFoxSampleList.md)
 
 ### Raw data location 
 *
