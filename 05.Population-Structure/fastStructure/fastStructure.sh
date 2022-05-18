@@ -7,5 +7,5 @@
 
 for i in {2..7}
 do
-   python structure.py -K ${i} --input=populations.plink_recodebinary  --output=populations.plink_fastStructure
+   python fastStructure/structure.py -K ${i} --input=populations.plink_recodebinary  --output=populations.plink_fastStructure
 done
