@@ -2,7 +2,7 @@
 #SBATCH -t 10:00:00
 #SBATCH -p med
 #SBATCH --mem=8G
-#SBATCH -o "runfineradstructure1.out"
+#SBATCH -o "runfineradstructure.out"
 
 ~/bin/fineRADstructure/finestructure -x 100000 -y 100000 -z 1000 populations.haps_chunks.out fineRADstruoutput.mcmc.xml
 
