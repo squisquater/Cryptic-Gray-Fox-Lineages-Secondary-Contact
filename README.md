@@ -21,7 +21,7 @@ You can check out details on the Stacks populations filters [here]( http://catch
 * Using data generated from the reference genome pipeline, we tested a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. The pipeline here represented the approach described in the manuscript.
   * Remove the lowest quality individuals (>90% of SNPs missing) [plinkfilter_mind0.9.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_mind0.9.sh)
   * Remove sites that were called in <80% of individuals [plinkfilter_geno0.2.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_geno0.2.sh)
-  * Again remove lower quality individuals (>68% of SNPs missing) using a threshold based approach [plinkfilter_mind0.68.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_mind0.68.sh)
+  * Again remove lower quality individuals (>32% of SNPs missing) using a threshold based approach [plinkfilter_mind0.32.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_mind0.32.sh)
 
 Use this final SNP dataset to generated a SNP-list from the .map file and used this for downstream analyses. 
 
