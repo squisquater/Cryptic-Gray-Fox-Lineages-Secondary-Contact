@@ -36,9 +36,11 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 * Choose model complexity [chooseK.sh]
 
 ### fineRADstructure
-
-
-
+* Calculate the co-ancenstry matrix using the radpainter file output by stacks [runradpainter.sh]
+* Feed the co-ancestry matrix (filename_chunk.out) into the fineSTRUCTURE Markov chain Monte Carlo (MCMC) clustering algorithm [runfineradstructure.sh]
+* Run the tree-building algorithm [runfineradstrutree.sh]
+* Plot the resulting tree using the R script [../fineRADstructure/fineRADstructurePlot.R] (note that this comes with the fineRADstructure program)
+  * See [notes] regarding modifying parts of the R script
 ## 6. Phylogenetic Analyses
 ### Alignment & Initial SNP Calling
  * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, just using a different bamlist.
