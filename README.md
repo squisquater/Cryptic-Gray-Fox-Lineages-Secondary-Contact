@@ -3,7 +3,7 @@ Identifying the presence and location of secondary contact between cryptic gray 
 
 ### Sample Info
 * [GrayFoxSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/GrayFoxSampleList.md)
-
+* [CanidSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/CanidSampleList.md)
 ### Raw data location 
 * *Will include link to data repository with all fastqfiles once uploaded*
 
