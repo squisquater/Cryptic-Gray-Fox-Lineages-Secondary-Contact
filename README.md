@@ -28,7 +28,7 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 
 ## 5. Population Structure
 ### PCA
-* for the full snp datatset [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
+* Generate a PCA [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/05.Population-Structure/PCA/plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh)
 
 ### fastStructure
 * Recode binary plink files [plink_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25_recodebinary.sh] 
