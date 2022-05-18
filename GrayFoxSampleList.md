@@ -372,4 +372,4 @@
 | S19-6655 | South Carolina | East   | 2019 | J.Beasley  | Savannah River Ecology Laboratory, UGA | East  | East  |
 | S19-6656 | South Carolina | East   | 2019 | J.Beasley  | Savannah River Ecology Laboratory, UGA | East  | East  |
 
-** NS = Not Sequenced **
+**NS = Not Sequenced**
