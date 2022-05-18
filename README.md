@@ -23,7 +23,7 @@ You can check out details on the Stacks populations filters [here]( http://catch
   * Remove sites that were called in <80% of individuals [plinkfilter_geno0.2.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_geno0.2.sh)
   * Again remove lower quality individuals (>32% of SNPs missing) using a threshold based approach [plinkfilter_mind0.32.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_mind0.32.sh)
 
-Use this final SNP dataset (44,931 sites) to generated a SNP-list from the .map file and use this for downstream analyses. 
+Use this final SNP dataset (44,931 sites) to generated a SNP list from the .map file and use this for downstream analyses. 
 
 ## 4. Final SNP Dataset and Population Summary Stats
 * Rerun populations using SNP list generated above and only individuals that passed quality filtering (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/04.Population-Stats/Populations_GrayFox_259.sh)
