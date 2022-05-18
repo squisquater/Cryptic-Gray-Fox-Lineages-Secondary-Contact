@@ -32,8 +32,8 @@ I then generated a final Gray Fox SNP whitelist from the .map file and used this
 
 ### fastStructure
 * Recode binary plink files [plink_recodebinary.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/05.Population-Structure/fastStructure/plink_recodebinary.sh) 
-* Run fastStructure for K=2:7 [fastStructure_GrayFoxAll_259_maf0.02_moh0.6_geno0.2_mind0.25.sh]
-* Choose model complexity [chooseK.sh]
+* Run fastStructure for K=2:7 [fastStructure.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/05.Population-Structure/fastStructure/fastStructure.sh)
+* Choose model complexity [chooseK.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/05.Population-Structure/fastStructure/chooseK.sh)
 
 ### fineRADstructure
 * Calculate the co-ancenstry matrix using the radpainter file output by stacks [runradpainter.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Population-Structure/fineRADstructure/runradpainter.sh)
