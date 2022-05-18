@@ -5,7 +5,7 @@ Identifying the presence and location of secondary contact between cryptic gray 
 * [GrayFoxSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/GrayFoxSampleList.md)
 
 ### Raw data location 
-*
+* *Will include link to data repository with all fastqfiles once uploaded*
 
 ## 1. Data Processing
 * Demultiplexed [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/DataProcessing/demux.sh) 
