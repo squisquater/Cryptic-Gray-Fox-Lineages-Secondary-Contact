@@ -8,7 +8,7 @@ Identifying the extent of secondary contact between cryptic gray fox lineages us
 * *Will include link to data repository with all fastqfiles once uploaded*
 
 ## 1. Data Processing
-* Demultiplexed [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/01.DataProcessing/demux.sh) 
+* Demultiplex reads [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/01.DataProcessing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/01.DataProcessing/trim.sh)
 
 ## 2. Alignment & Initial SNP Calling
