@@ -4,7 +4,7 @@
 ### In this case I used the canFam3.fa ref genome
 
 #!/bin/bash
-#SBATCH -t 10:00:00x
+#SBATCH -t 10:00:00
 #SBATCH --mem 8GB
 #SBATCH -o "alignSR.out"
 
