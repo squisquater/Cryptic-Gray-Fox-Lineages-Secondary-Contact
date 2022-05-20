@@ -8,4 +8,4 @@ module load plink
 
 plink --file $INPUT --missing --mind 0.7 --recode --allow-extra-chr --dog --out $OUTPUT
 
-#556347 variants and 86 dogs pass filters and QC.
+#556347 variants
