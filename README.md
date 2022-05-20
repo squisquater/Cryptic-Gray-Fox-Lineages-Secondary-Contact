@@ -10,16 +10,16 @@ Genomic analyses of gray fox lineages suggest ancient divergence and gene flow a
 ## Raw data location 
 * *Will include link to data repository with all fastqfiles once uploaded*
 
-## 1. Data Processing
+## 01. Data Processing
 * Demultiplex reads [demux.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/01.DataProcessing/demux.sh) 
 * Trim reads [trim.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/01.DataProcessing/trim.sh)
 
-## 2. Alignment & Initial SNP Calling
+## 02. Alignment & Initial SNP Calling
 * Align to reference [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/02.Alignment-SNPcalling/align.sh)
 * Stacks reference map SNP pipeline [refmap_PL_grayfox.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/02.Alignment-SNPcalling/refmap_PL_grayfox.sh)
 * Run populations on output of above refmap pipeline [poprun_GrayFoxAll_284_maf0.02_moh0.6.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/02.Alignment-SNPcalling/poprun_GrayFoxAll_284_maf0.02_moh0.6.sh)
 
-## 3. Initial SNP filtering
+## 03. Initial SNP filtering
 You can check out details on the Stacks populations filters [here]( http://catchenlab.life.illinois.edu/stacks/comp/populations.php) 
 * Using data generated from the reference genome pipeline, we tested a variety of filtering approaches to maximimze the number of sites and individuals while removing low quality data. The pipeline here represents the approach described in the manuscript.
   * Remove the lowest quality individuals (>90% of SNPs missing) [plinkfilter_mind0.9.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/03.SNP-filtering/plinkfilter_mind0.9.sh)
@@ -28,10 +28,10 @@ You can check out details on the Stacks populations filters [here]( http://catch
 
 Use this final SNP dataset (44,931 sites) to generated a SNP list from the .map file and use this for downstream analyses. 
 
-## 4. Final SNP Dataset and Population Summary Stats
+## 04. Final SNP Dataset and Population Summary Stats
 * Rerun populations using SNP list generated above and only individuals that passed quality filtering (n=259) [Populations_GrayFox_259.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/04.Population-Stats/Populations_GrayFox_259.sh)
 
-## 5. Population Structure
+## 05. Population Structure
 ### PCA
 * Generate a PCA [plink_PCA.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/05.Population-Structure/PCA/plink_PCA.sh)
 
@@ -46,7 +46,7 @@ Use this final SNP dataset (44,931 sites) to generated a SNP list from the .map 
 * Run the tree-building algorithm [runfineradstrutree.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Population-Structure/fineRADstructure/runfineradstrutree.sh)
 * Plot the resulting tree using the R script [fineRADstructurePlot.R](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Population-Structure/fineRADstructure/fineRADstructurePlot.R) (note that this comes with the fineRADstructure program)
   * See [notes](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/tree/main/Population-Structure/fineRADstructure) regarding modifying parts of the R script
-## 6. Phylogenetic Analyses
+## 06. Phylogenetic Analyses
 This analysis utilized additional canid samples (Vulpes & Canis) to estimate the nuclear divergence time of the eastern and western Urocyon lineages.
 ### Alignment & Initial SNP Calling
  * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, just using a different bamlist.
