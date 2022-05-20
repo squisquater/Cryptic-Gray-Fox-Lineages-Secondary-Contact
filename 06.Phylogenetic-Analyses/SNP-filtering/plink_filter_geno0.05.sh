@@ -9,4 +9,4 @@ module load plink
 plink --file $INPUT --geno 0.05 --allow-extra-chr --dog --out $OUTPUT
 
 #431303 variants removed due to missing genotype data (--geno).
-#125044 variants and 86 dogs pass filters and QC.
+#125044 variants 
