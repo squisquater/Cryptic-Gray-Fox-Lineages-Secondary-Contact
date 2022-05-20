@@ -2,10 +2,10 @@
 #SBATCH -t 10:00
 #SBATCH -p high
 #SBATCH --mem=200M
-#SBATCH -o "plink_Canidae_86_minmac2_maxhet0.6_p15_mind0.7.out"
+#SBATCH -o "plink_filter_mind0.7.out"
 
 module load plink
 
-plink --file ~/GrayFox/Stacks_Outputs/Canidae_90/populations.plink --missing --mind 0.7 --recode --allow-extra-chr --dog --out ~/GrayFox/Stacks_Outputs/Canidae_90/plink_Canidae_86_minmac2_maxhet0.6_p15_mind0.7
+plink --file $INPUT --missing --mind 0.7 --recode --allow-extra-chr --dog --out $OUTPUT
 
 #556347 variants and 86 dogs pass filters and QC.
