@@ -1,5 +1,5 @@
 # Cryptic-Gray-Fox-Lineages-Secondary-Contact
-Genomic analyses of gray fox lineages suggest ancient divergence and gene flow across a zone of secondary contact in the Southern Great Plains 
+### *Genomic analyses of gray fox lineages suggest ancient divergence and gene flow across a zone of secondary contact in the Southern Great Plains* 
 
 
 <img align="right" src="/GrayFox.png" width="400"> 
