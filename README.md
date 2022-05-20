@@ -1,12 +1,13 @@
 # Cryptic-Gray-Fox-Lineages-Secondary-Contact
-Identifying the extent of secondary contact between cryptic gray fox lineages using a reduced representation GBS dataset
+Genomic analyses of gray fox lineages suggest ancient divergence and gene flow across a zone of secondary contact in the Southern Great Plains 
 
-<img align="center" src="/GrayFox.png" width="400"> 
 
-### Sample Info
+<img align="right" src="/GrayFox.png" width="400"> 
+
+## Sample Info
 * [GrayFoxSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/GrayFoxSampleList.md)
 * [CanidSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/CanidSampleList.md)
-### Raw data location 
+## Raw data location 
 * *Will include link to data repository with all fastqfiles once uploaded*
 
 ## 1. Data Processing
