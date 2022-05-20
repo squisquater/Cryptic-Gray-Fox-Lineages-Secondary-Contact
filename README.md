@@ -44,6 +44,7 @@ Use this final SNP dataset (44,931 sites) to generated a SNP list from the .map 
 * Plot the resulting tree using the R script [fineRADstructurePlot.R](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Population-Structure/fineRADstructure/fineRADstructurePlot.R) (note that this comes with the fineRADstructure program)
   * See [notes](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/tree/main/Population-Structure/fineRADstructure) regarding modifying parts of the R script
 ## 6. Phylogenetic Analyses
+This analysis utilized additional canid samples (Vulpes & Canis) to estimate the nuclear divergence time of the eastern and western Urocyon lineages.
 ### Alignment & Initial SNP Calling
  * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, just using a different bamlist.
  * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/06.Phylogenetic-Analyses/Alignment-SNPCalling/ref_mapPL_Canidae_90.sh)
