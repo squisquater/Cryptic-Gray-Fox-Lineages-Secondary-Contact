@@ -46,10 +46,11 @@ Use this final SNP dataset (44,931 sites) to generated a SNP list from the .map 
 ## 6. Phylogenetic Analyses
 ### Alignment & Initial SNP Calling
  * Alignment protocols were identical to those shown in the [align.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/Alignment-SNPcalling/align.sh) script, just using a different bamlist.
- * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh]
- * Run populations on output of above refmap pipeline [Populations_Canidae_90_minmac2moh0.6p15.sh]
+ * Stacks reference map SNP pipeline [ref_mapPL_Canidae_90.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/06.Phylogenetic-Analyses/Alignment-SNPCalling/ref_mapPL_Canidae_90.sh)
+ * Run populations on output of above refmap pipeline [Populations_Canidae_90_minmac2moh0.6p15.sh](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/06.Phylogenetic-Analyses/Alignment-SNPCalling/Populations_Canidae_90_minmac2moh0.6p15.sh)
 
 ### SNP filtering
+
 
 ###
  * Convert to fasta
