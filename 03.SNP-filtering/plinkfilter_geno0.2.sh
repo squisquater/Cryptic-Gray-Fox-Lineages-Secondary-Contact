@@ -6,4 +6,4 @@
 
 module load plink
 
-plink --file plinkfilter_mind0.9 --geno 0.2 --allow-extra-chr --recode --missing --out plinkfilter_mind0.9_geno0.2
+plink --file $INPUT --geno 0.2 --allow-extra-chr --recode --missing --out $OUTPUT
