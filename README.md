@@ -1,6 +1,8 @@
 # Cryptic-Gray-Fox-Lineages-Secondary-Contact
 Identifying the extent of secondary contact between cryptic gray fox lineages using a reduced representation GBS dataset
 
+<img align="center" src="/GrayFox.png" width="400"> 
+
 ### Sample Info
 * [GrayFoxSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/GrayFoxSampleList.md)
 * [CanidSampleList.md](https://github.com/squisquater/Cryptic-Gray-Fox-Lineages-Secondary-Contact/blob/main/CanidSampleList.md)
