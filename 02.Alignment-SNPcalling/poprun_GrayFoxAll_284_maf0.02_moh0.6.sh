@@ -11,6 +11,8 @@ populations -P ~/GrayFox/Stacks_Outputs/GrayFoxAll_284/ -O ~/GrayFox/Stacks_Outp
 --min_maf 0.02 --max_obs_het 0.60 \
 --structure --vcf --plink --radpainter --genepop --phylip_var --treemix \
 
+### Note that you will want to add in the [--ordered-export] parameter to avoid double calling the same SNP from different stacks loci.
+
 ###### Summary of output file ####
 #==========================================
 #SLURM_JOB_ID = 14514395
